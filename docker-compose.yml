@@ -12,7 +12,7 @@ services:
 
   pm:
     image: tomcat:8-jre8
-   volumes:
+    volumes:
       - ./target/:/usr/local/tomcat/webapps/
     ports:
       - 8080:8080
