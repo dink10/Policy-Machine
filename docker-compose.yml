@@ -5,7 +5,6 @@ services:
     image: neo4j
     volumes:
       - $HOME/neo4j/data:/data
-      - $HOME/neo4j/logs:/logs
     ports:
       - 7474:7474
       - 7687:7687
